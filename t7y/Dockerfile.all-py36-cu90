@@ -1,0 +1,2 @@
+FROM ufoym/deepo
+RUN apt-get install -y --no-install-recommends python3.6-tk && python -m pip --no-cache-dir install --upgrade pycocotools tensorboardX torch-encoding
